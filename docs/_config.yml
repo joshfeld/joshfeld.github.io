@@ -28,9 +28,10 @@ github_username:  joshfeld
 
 # Build settings
 markdown: kramdown
-theme: minima
-# plugins:
-#   - jekyll-feed
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
